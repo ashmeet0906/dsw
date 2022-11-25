@@ -7,7 +7,7 @@
    </head>
 <body>
   <div class="container">
-    <div class="title">Partner With Us</div>
+    <div class="title">Work With Us</div>
      <form action="connect.php" method="post">
     <div class="content">
       <form action="#">
