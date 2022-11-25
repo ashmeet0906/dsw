@@ -28,16 +28,6 @@ if (isset($_POST['submit'])) {
 
 <body>
   <div class="container">
-<<<<<<< HEAD
-    <div class="title">Work With Us</div>
-     <form action="connect.php" method="post">
-    <div class="content">
-      <form action="" method="post">
-        <div class="user-details">
-          <div class="input-box">
-            <span class="details">Company Name</span>
-            <input type="text" id="company_name" name="company_name" placeholder="Enter Company Name" required>
-=======
     <div class="title">Partner With Us</div>
     
       <div class="content">
@@ -67,53 +57,18 @@ if (isset($_POST['submit'])) {
             </div>
 
           </div>
-          <div class="category">
-            <input type="radio" name="category" id="dot-1" value="1">
-            <input type="radio" name="category" id="dot-2" value="2">
-            <input type="radio" name="category" id="dot-3" value="3">
-            <input type="radio" name="category" id="dot-4" value="4">
-            <input type="radio" name="category" id="dot-5" value="5">
-            <input type="radio" name="category" id="dot-6" value="6">
-            <input type="radio" name="category" id="dot-7" value="7">
-            <input type="radio" name="category" id="dot-8" value="8">
+          <div class="input-box">
+          <span class="details">Category</span>
+            <input type="radio" name="category" id="dot-1" value="1" class="radios"> Biological Testing
+            <input type="radio" name="category" id="dot-3" value="3" class="radios"> Biological Testing
+            <input type="radio" name="category" id="dot-4" value="4" class="radios"> Biological Testing
+            <input type="radio" name="category" id="dot-5" value="5" class="radios"> Biological Testing
+            <input type="radio" name="category" id="dot-2" value="2" class="radios"> Biological Testing
+            <input type="radio" name="category" id="dot-6" value="6" class="radios"> Biological Testing
+            <input type="radio" name="category" id="dot-7" value="7" class="radios"> Biological Testing
+            <input type="radio" name="category" id="dot-8" value="8" class="radios"> Biological Testing
             <span class="category-title">Category</span>
-            <div class="category">
-              <label for="dot-1">
-                <span class="dot one"></span>
-                <span class="category">Biological Testing</span>
-              </label>
-              <label for="dot-2">
-                <span class="dot two"></span>
-                <span class="category">Chemical Testing</span>
-              </label>
-              <label for="dot-3">
-                <span class="dot three"></span>
-                <span class="category">Electrical Testing</span>
-              </label>
-              <label for="dot-4">
-                <span class="dot four"></span>
-                <span class="category">Mechanical Testing</span>
-
-              </label>
-
-              <label for="dot-5">
-                <span class="dot five"></span>
-                <span class="category">Thermal Testing</span>
-              </label>
-              <label for="dot-6">
-                <span class="dot six"></span>
-                <span class="category">Electro-Technical Testing</span>
-              </label>
-              <label for="dot-7">
-                <span class="dot seven"></span>
-                <span class="category">Optical Calibration Testing</span>
-              </label>
-              <label for="dot-8">
-                <span class="dot eight"></span>
-                <span class="category">Fluid Flow Testing</span>
-              </label>
-            </div>
->>>>>>> a35ede30f10236f7e1071f65ebdc3318668c94db
+          
           </div>
           <div class="input-box">
             <span class="details">Description</span>
