@@ -23,10 +23,10 @@ if(isset($_POST['submit'])){
 <nav class="navbar background">
 <ul class ="nav-list">
 <div class="logo"><img src="C:\Users\ashme\Desktop\DSW_PROJECT\WhatsApp Image 2022-11-14 at 23.40.42.jpg"></div>
-<li><a href="/" > Home</a></li>
+<li><a href="" > Home</a></li>
 <li><a href="certificate_new.php"> Certificates </a></li>
 <li><a href="partner_with_us.php"> Partner With Us </a></li>
-<li><a href="login_register.php" > <?php !empty($_SESSION['is_logged'])?'':'Login' ; ?> </a></li>
+<li><a href="login_register.php" > <?php if(!empty($_GET['name'])){echo($_GET['name']);}else{echo('Login') ;} ?> </a></li>
 </ul>
 
 </nav>

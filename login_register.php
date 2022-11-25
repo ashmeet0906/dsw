@@ -3,16 +3,17 @@ session_start();
 include 'db_connection.php';
 $message='';
  if(isset($_POST['signup'])){
+  $name=$_POST['name'];
   $email=$_POST['email'];
   $phone=$_POST['phone_no'];
   $password=$_POST['password'];
   $confirm_password=$_POST['confirm_password'];
   if($password==$confirm_password){
-  $query = "INSERT INTO `users`( `email`,`phone_no`, `password`) VALUES ('$email','$phone','$password')";
+  $query = "INSERT INTO `users`( `name`,`email`,`phone_no`, `password`) VALUES ('$name','$email','$phone','$password')";
   $result = mysqli_query($conn, $query);
   if($result){
     $message="Registration Successful";
-    $_SESSION['is_logged']=1;
+   
   }else{
     $message="Something Went Wrong , Unable To Register";
   }
@@ -29,7 +30,8 @@ else{
   $data=mysqli_fetch_array($fetch_result);
   if($data && $password==$data['password']){
     $message="login successful";
-    header('Location: utlfinal.php');
+    
+    header('Location: index.php?name='.$data['name']);
   }else{
     $message="Either Email Or Password is Wrong";
   }
@@ -71,6 +73,9 @@ else{
             <div class="signup-link">Not a member? <a href="">Signup now</a></div>
           </form>
           <form action="" class="signup" method="post">
+            <div class="field">
+              <input type="text" placeholder="Name" name="name" required>
+            </div>
             <div class="field">
               <input type="text" placeholder="Email Address" name="email" required>
             </div>
