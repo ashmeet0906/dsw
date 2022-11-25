@@ -10,7 +10,7 @@
     <div class="title">Work With Us</div>
      <form action="connect.php" method="post">
     <div class="content">
-      <form action="#">
+      <form action="" method="post">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Company Name</span>

@@ -56,7 +56,7 @@ we are here to solve your problem by providing you the best certification from t
 <br>
 <p class= "text-big">About Us</p>
 <p class= "text-sm">UTL (Uniface Test Lab) is a rapidly growig start-up company, which coordinate between company and certifier organisations, to provide best 
-deals on required certifications for a client. It is a idea developed by Ananya Mittal, Ashmeet Kur, Juhi Sharma and Manya Jain, who are the students of Second year-B9 Batch
+deals on required certifications for a client. It is a idea developed by Ananya Mittal, Ashmeet Kaur, Juhi Sharma and Manya Jain, who are the students of Second year-B9 Batch
 of Jaypee Institute of Information and Technology. We made this project, to provide best deals to our customers and hassel free certifications and provides many choices as per ther requirement.</p>
 </div>
 </div>
